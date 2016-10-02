@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="top_bar_bg">#33000000</color>
+    <color name="common_bg">#ff282828</color>
+    <color name="bottom_menu_bg">#ff1d1d1d</color>
+
+    <color name="ios7_white">#ffa8a8a8</color>
+    <color name="ios7_gray">#ff646464</color>
+    <color name="ios7_blue">#ff1086ff</color>
+    <color name="bluegrey">#ffd8d8d8</color>
+
+    <color name="splunk_top_bar_bg">#333333</color>
+    <color name="splunk_tool_bar_bg">#99333333</color>
+    <color name="splunk_bottom_tab_bg">#ef3030</color>
+    <color name="splunk_title_text">#ffffff</color>
+</resources>

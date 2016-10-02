@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splunk_image_edit_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/splunk_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/common_top_bar"
+        layout="@layout/splunk_layout_common_top_bar" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/draw_delete_shape"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/common_top_bar"
+        android:src="@mipmap/delete_shape" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/common_top_bar"
+            layout="@layout/splunk_layout_common_bottom_bar" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

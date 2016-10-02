@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.rainbow.drawcore.surfaceview.MyTouchLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_edit_text_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/add_edit_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/common_btn_bg_1_selector"
+        android:minHeight="45dp"
+        android:minWidth="80dp"/>
+    <ImageView
+        android:id="@+id/delete_edit_text"
+        android:layout_alignRight="@id/add_edit_text"
+        android:layout_marginRight="-10dp"
+        android:background="@mipmap/delete_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+</com.rainbow.drawcore.surfaceview.MyTouchLayout>
