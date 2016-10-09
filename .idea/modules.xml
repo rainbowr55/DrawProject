@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DrawProject.iml" filepath="$PROJECT_DIR$/DrawProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrawProject.iml" filepath="$PROJECT_DIR$/DrawProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawdemo/drawdemo.iml" filepath="$PROJECT_DIR$/drawdemo/drawdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rainbowDrawLib/rainbowDrawLib.iml" filepath="$PROJECT_DIR$/rainbowDrawLib/rainbowDrawLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/rainbowDrawLib/rainbowDrawLib.iml" filepath="$PROJECT_DIR$/rainbowDrawLib/rainbowDrawLib.iml" />
     </modules>
   </component>
